@@ -10,13 +10,14 @@ node_modules/
 source/lib/*
 
 # Track internal libraries & Ignore unused verdors files
-source/lib/font-awesome/less/
-source/lib/font-awesome/scss/
-!source/lib/font-awesome/*
-
+!source/lib/font-awesome/css/
+!source/lib/font-awesome/fonts/
+# jquery
 !source/lib/jquery/
-
-source/lib/ua-parser-js/*
+# ua-parse-js
 !source/lib/ua-parser-js/dist/
-
-!source/lib/velocity/
+# velocity
+!source/lib/velocity/*.js
+# fancybox (phton and video)
+!source/lib/fancybox/source/*.css
+!source/lib/fancybox/source/*.js
