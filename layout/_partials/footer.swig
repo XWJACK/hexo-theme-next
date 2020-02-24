@@ -62,3 +62,7 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+
+{% if theme.footer.backup.text %}
+<a href="{{ theme.footer.backup.url }}" target='_blank'>{{ theme.footer.backup.text }}</a>
+{% endif %}

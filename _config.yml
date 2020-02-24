@@ -86,6 +86,9 @@ footer:
     enable: false
     # Version info of NexT after scheme info (vX.X.X).
     version: true
+  backup:
+    url: "http://www.beian.miit.gov.cn"
+    text: "京ICP备18053843号"
   # -------------------------------------------------------------
   # Any custom text can be defined here.
   #custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
