@@ -573,7 +573,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: UA-80240532-1
+google_analytics: 
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -656,7 +656,7 @@ firestore:
 # Show Views/Visitors of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: true
+  enable: false
   total_visitors: true
   total_visitors_icon: user
   total_views: true
