@@ -527,6 +527,8 @@ gitment:
   client_secret: b1fe01f8c1aed22c0e78e5b65ac4793bb1433707 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+  browser_js_url: https://s0.ssl.qhres.com/static/ac32b0163ec5f0c3.js
+  default_css_url: https://s3.ssl.qhres.com/static/d1850e8da1da0b6b.css
 
 # Baidu Share
 # Available value:
